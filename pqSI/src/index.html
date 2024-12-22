@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Clientes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='awita'>
+
+        <div class='container'>
+            <div class='title'>
+                <h2>Gestion de Clientes.</h2>
+                
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons">+</i></a>
+            </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Email</th>
+                            <th>Telefono</th>
+                            <th>Direccion</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                
+                    <tbody id='body'>
+                            
+                    </tbody>
+                </table>
+        </div>
+
+    </div>
+
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content" >
+        <h4>Nuevo Cliente</h4>
+        <p>Agregue nuevos Clientes al Sistema</p>
+        <div class='row' id='owo'>
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Nombre</label>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id="lastname" type="text" class="validate">
+                    <label for="lastname">Sdo nombre</label>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id="telefono" type="text" class="validate">
+                    <label for="telefono">Telefono</label>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id="correo" type="text" class="validate">
+                    <label for="correo">Correo</label>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id="direccion" type="text" class="validate">
+                    <label for="direccion">Direccion</label>
+                </div>
+            </div>
+        </div>
+    
+        <button type="submit" onclick='agregar()'>Enviar </button>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src='./js/crudCustomers.js'></script>
+    <script src='./js/modal.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
