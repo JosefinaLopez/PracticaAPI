@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace CustomersAPI.Data
-{
+{ 
+    //Clase para Insertar Registros pq el Id es Identity y aumenta en 1
     public class CreateCustomersDto
     {
         [Required(ErrorMessage = "El nombre propio tiene que ser especificado")]

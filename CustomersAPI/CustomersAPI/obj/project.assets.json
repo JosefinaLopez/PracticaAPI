@@ -3251,11 +3251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\CustomersAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\CustomersAPI.csproj",
       "projectName": "CustomersAPI",
-      "projectPath": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\CustomersAPI.csproj",
+      "projectPath": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\CustomersAPI.csproj",
       "packagesPath": "C:\\Users\\Josef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\obj\\",
+      "outputPath": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

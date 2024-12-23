@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace CustomersAPI.Data
-{
+{  
+    //Clase para Editar Registros. 
     public class CustomerDto
     {
         public int? Id {  get; set; }

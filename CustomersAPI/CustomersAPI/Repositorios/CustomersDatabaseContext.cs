@@ -15,6 +15,7 @@ namespace CustomersAPI.Repositorios
 
         }
         public DbSet<CustomersEntity> Customer { get; set; }
+        //Obtiene registro por Id
         public async Task<CustomersEntity?> Get(long id)
         {
             return await Customer.FirstOrDefaultAsync(x => x.Id == id);  

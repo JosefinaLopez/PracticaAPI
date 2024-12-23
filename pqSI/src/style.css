@@ -4,7 +4,11 @@
     right: 0;
     left: 0;
     bottom: 0;
-    /*background-color: aqua;*/
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     align-items: center;
 }
@@ -15,11 +19,23 @@
 }
 .title{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
 }
 #owo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
+}
+#body{
+    overflow-y: auto;
+}
+#agre{
+    border-radius: 30px;
+}
+#edit{
+    display: none;
 }

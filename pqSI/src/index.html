@@ -12,9 +12,8 @@
 
         <div class='container'>
             <div class='title'>
-                <h2>Gestion de Clientes.</h2>
-                
-                <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons">+</i></a>
+                <h2>Agenda de Clientes.</h2>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1" id='agre'><i class="material-icons" onclick='limpiarForm()'>+</i></a>
             </div>
                 <table>
                     <thead>
@@ -40,47 +39,51 @@
 <!-- Modal Structure -->
 <div id="modal1" class="modal">
     <div class="modal-content" >
-        <h4>Nuevo Cliente</h4>
-        <p>Agregue nuevos Clientes al Sistema</p>
+        <h4 style='text-align: center;'>Formulario de Clientes</h4>
         <div class='row' id='owo'>
-            <div class="col s12">
-                <div class="input-field inline">
+                <div >
                     <input id="name" type="text" class="validate">
                     <label for="name">Nombre</label>
                 </div>
-            </div>
-            <div class="col s12">
-                <div class="input-field inline">
+        </div>
+            <div class="row" id='owo'>
+                <div >
                     <input id="lastname" type="text" class="validate">
-                    <label for="lastname">Sdo nombre</label>
+                    <label for="lastname">2 nombre</label>
                 </div>
             </div>
-            <div class="col s12">
-                <div class="input-field inline">
+            <div class="row" id='owo'>
+                <div >
                     <input id="telefono" type="text" class="validate">
                     <label for="telefono">Telefono</label>
                 </div>
             </div>
-            <div class="col s12">
-                <div class="input-field inline">
+            <div class="row" id='owo'>
+                <div >
                     <input id="correo" type="text" class="validate">
                     <label for="correo">Correo</label>
                 </div>
             </div>
-            <div class="col s12">
-                <div class="input-field inline">
+            <div class="row" id='owo'>
+                <div >
                     <input id="direccion" type="text" class="validate">
                     <label for="direccion">Direccion</label>
                 </div>
             </div>
+            <input type="hidden"  id='id'>
         </div>
-    
-        <button type="submit" onclick='agregar()'>Enviar </button>
+        <div style='display: flex; justify-content:center'>
+        <button type="submit" class="modal-close waves-effect waves-green btn-flat" onclick='agregar()'id="add">Registrar </button>
+        <button type="submit" class="modal-close waves-effect waves-green btn-flat" onclick='editar()' id='edit'>Modificar </button>
+
+
+        </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick='limpiarForm()'>Cerrar</a>
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src='./js/crudCustomers.js'></script>
     <script src='./js/modal.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\source\\repos\\customersapi\\customersapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\desktop\\workspace\\practicaapi\\customersapi\\customersapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\source\\repos\\customersapi\\customersapi\\repositorios\\customersdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\repositorios\\customersdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\source\\repos\\customersapi\\customersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\desktop\\workspace\\practicaapi\\customersapi\\customersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\source\\repos\\customersapi\\customersapi\\data\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\desktop\\workspace\\practicaapi\\customersapi\\customersapi\\data\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\data\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\desktop\\workspace\\practicaapi\\customersapi\\customersapi\\data\\createcustomersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\data\\createcustomersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|c:\\users\\josef\\desktop\\workspace\\practicaapi\\customersapi\\customersapi\\repositorios\\customersdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126DAC73-C79B-4015-A609-4D05DA008724}|CustomersAPI\\CustomersAPI.csproj|solutionrelative:customersapi\\repositorios\\customersdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Data\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "CustomersAPI\\Data\\CustomerDto.cs",
-              "ToolTip": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Data\\CustomerDto.cs",
-              "RelativeToolTip": "CustomersAPI\\Data\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CustomersDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
+              "RelativeDocumentMoniker": "CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
+              "RelativeToolTip": "CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:06:25.198Z",
-              "IsPinned": true
+              "WhenOpened": "2024-12-22T21:07:40.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateCustomersDto.cs",
+              "DocumentMoniker": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Data\\CreateCustomersDto.cs",
+              "RelativeDocumentMoniker": "CustomersAPI\\Data\\CreateCustomersDto.cs",
+              "ToolTip": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Data\\CreateCustomersDto.cs",
+              "RelativeToolTip": "CustomersAPI\\Data\\CreateCustomersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T21:07:13.983Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CustomersAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Program.cs",
-              "RelativeToolTip": "CustomersAPI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Data\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "CustomersAPI\\Data\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Data\\CustomerDto.cs",
+              "RelativeToolTip": "CustomersAPI\\Data\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T03:21:27.659Z"
+              "WhenOpened": "2024-12-22T21:06:47.971Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomersDatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
-              "RelativeDocumentMoniker": "CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
-              "ToolTip": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
-              "RelativeToolTip": "CustomersAPI\\Repositorios\\CustomersDatabaseContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAWwCUAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CustomersAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Program.cs",
+              "RelativeToolTip": "CustomersAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T03:09:49.94Z"
+              "WhenOpened": "2024-12-22T21:01:49.222Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "CustomersAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Josef\\source\\repos\\CustomersAPI\\CustomersAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Josef\\Desktop\\WorkSpace\\PracticaAPI\\CustomersAPI\\CustomersAPI\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomersAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:02:09.299Z",
+              "WhenOpened": "2024-12-22T20:06:04.141Z",
               "EditorCaption": ""
             }
           ]
